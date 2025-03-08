@@ -30,14 +30,14 @@ No navegador digite localhost/8080
 
 ## Comandos básicos do Docker
 
-docker ps: lista os containers em execução.
-docker ps -a: lista todos os containers (inclusive os parados).
-docker network create nome_network: cria uma network.
-docker network ls: lista as networks criadas.
-docker images: lista todas as imagens.
-docker stop <id ou nome do container>: para um container em execução.
-docker start <id ou nome do container>: inicia um container parado.
-docker rm <id ou nome do container>: remove um container.
+docker ps: lista os containers em execução.<br>
+docker ps -a: lista todos os containers (inclusive os parados).<br>
+docker network create nome_network: cria uma network.<br>
+docker network ls: lista as networks criadas.<br>
+docker images: lista todas as imagens.<br>
+docker stop <id ou nome do container>: para um container em execução.<br>
+docker start <id ou nome do container>: inicia um container parado.<br>
+docker rm <id ou nome do container>: remove um container.<br>
 docker rmi nome_da_imagem: remove uma imagem.
 
 ## Comandos para criar network, imagens e containers que serão usados no Natural Adabas. Execute na ordem.
