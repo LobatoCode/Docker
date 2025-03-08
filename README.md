@@ -4,11 +4,11 @@ Site oficial do Docker:
 
 https://www.docker.com/
 
-As versões mais recentes do docker pedem o windows 10 pro pra cima. Mas existe o docker toolbox para versões anteriores.
+As versões mais recentes do docker pedem o windows 10 pro pra cima. Mas existe o docker toolbox para versões anteriores:
 
 https://github.com/docker-archive/toolbox/blob/master/docs/toolbox_install_windows.md
 
-Comando no cmd para baixar o docker. Através do Winget (windows packge manager).
+Comando no cmd para baixar o docker. Através do Winget (windows packge manager):
 
 winget install -e --id Docker.DockerDesktop
 
@@ -19,6 +19,10 @@ https://www.youtube.com/watch?v=ZyBBv1JmnWQ
 Documentação:
 
 https://docs.docker.com/desktop/setup/install/windows-install/
+
+Guia para rodar natural adabas em Containers:
+
+[AN+Community+Edition+Guide.pdf](https://github.com/user-attachments/files/19146284/AN%2BCommunity%2BEdition%2BGuide.pdf)
 
 ## Criação de um Container para testes:
 
