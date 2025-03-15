@@ -1,44 +1,38 @@
 # Docker
 
-Site oficial do Docker.<br>
-Official Docker website.
+## Site oficial do Docker | Official Docker website.
 
 https://www.docker.com/
 
-As versões mais recentes do docker pedem o windows 10 pro pra cima. Mas existe o docker toolbox para versões anteriores.<br>
-The latest versions of Docker require Windows 10 Pro or higher. However, there is Docker Toolbox for previous versions.
+## As versões mais recentes do docker pedem o windows 10 pro pra cima. Mas existe o docker toolbox para versões anteriores | The latest versions of Docker require Windows 10 Pro or higher. However, there is Docker Toolbox for previous versions
 
 https://github.com/docker-archive/toolbox/blob/master/docs/toolbox_install_windows.md
 
-Comando no cmd para baixar o docker usando Winget (windows packge manager).<br>
-Command in cmd to download Docker using Winget (windows packge manager).
+## Comando no cmd para baixar o docker usando Winget (windows packge manager) | Command in cmd to download Docker using Winget (windows packge manager)
 
 winget install -e --id Docker.DockerDesktop
 
-Vídeo ensinando a instalar o docker.<br>
-Video teaching how to install Docker.
+## Vídeo ensinando a instalar o docker | Video teaching how to install Docker
 
 https://www.youtube.com/watch?v=ZyBBv1JmnWQ
 
-Documentação.<br>
-Documentation.
+## Documentação | Documentation
 
 https://docs.docker.com/desktop/setup/install/windows-install/
 
-Guia para rodar natural adabas em Containers.<br>
-Guide to run Natural Adabas in Containers.
+## Guia para rodar natural adabas em Containers | Guide to run Natural Adabas in Containers
 
 [AN+Community+Edition+Guide.pdf](https://github.com/user-attachments/files/19146284/AN%2BCommunity%2BEdition%2BGuide.pdf)
 
 ## Criação de um Container para testes | Creating a Container for Testing
 
-Abra o cmd e digite.<br>
-Open cmd and type.
+### Abra o cmd e digite | Open cmd and type
 
 docker run -d -p 8080:80 docker/welcome-to-docker
 
-No navegador, digite localhost/8080 <br>
-In the browser, type localhost/8080
+### No navegador, digite | In the browser, type
+
+localhost/8080
 
 ## Comandos básicos do Docker | Basic Docker Commands
 
@@ -54,7 +48,7 @@ docker rmi nome_da_imagem: remove uma imagem | removes an image
 
 ## Comandos para criar network, imagens e containers que serão usados no Natural Adabas | Commands to create network, images, and containers that will be used in Natural Adabas
 
-Execute na ordem | Execute in order
+### Execute na ordem | Execute in order
 
 docker network create adabas_natural
 
