@@ -4,7 +4,7 @@
 
 https://www.docker.com/
 
-## As versões mais recentes do docker pedem o windows 10 pro pra cima. Mas existe o docker toolbox para versões anteriores | The latest versions of Docker require Windows 10 Pro or higher. However, there is Docker Toolbox for previous versions
+## As versões mais recentes do Docker pedem o windows 10 pro pra cima. Mas existe o docker toolbox para versões anteriores | The latest versions of Docker require Windows 10 Pro or higher. However, there is Docker Toolbox for previous versions
 
 https://github.com/docker-archive/toolbox/blob/master/docs/toolbox_install_windows.md
 
