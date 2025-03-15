@@ -1,38 +1,46 @@
 # Docker
 
-Site oficial do Docker:
+Site oficial do Docker.<br>
+Official Docker website.
 
 https://www.docker.com/
 
-As versões mais recentes do docker pedem o windows 10 pro pra cima. Mas existe o docker toolbox para versões anteriores:
+As versões mais recentes do docker pedem o windows 10 pro pra cima. Mas existe o docker toolbox para versões anteriores.<br>
+The latest versions of Docker require Windows 10 Pro or higher. However, there is Docker Toolbox for previous versions.
 
 https://github.com/docker-archive/toolbox/blob/master/docs/toolbox_install_windows.md
 
-Comando no cmd para baixar o docker. Através do Winget (windows packge manager):
+Comando no cmd para baixar o docker usando Winget (windows packge manager).<br>
+Command in cmd to download Docker using Winget (windows packge manager).
 
 winget install -e --id Docker.DockerDesktop
 
-Vídeo ensinando a instalar o docker:
+Vídeo ensinando a instalar o docker.<br>
+Video teaching how to install Docker.
 
 https://www.youtube.com/watch?v=ZyBBv1JmnWQ
 
-Documentação:
+Documentação.<br>
+Documentation.
 
 https://docs.docker.com/desktop/setup/install/windows-install/
 
-Guia para rodar natural adabas em Containers:
+Guia para rodar natural adabas em Containers.<br>
+Guide to run Natural Adabas in Containers.
 
 [AN+Community+Edition+Guide.pdf](https://github.com/user-attachments/files/19146284/AN%2BCommunity%2BEdition%2BGuide.pdf)
 
-## Criação de um Container para testes:
+## Criação de um Container para testes | Creating a Container for Testing
 
-Abra o cmd e digite:
+Abra o cmd e digite.<br>
+Open cmd and type.
 
 docker run -d -p 8080:80 docker/welcome-to-docker
 
-No navegador digite localhost/8080
+No navegador, digite localhost/8080 <br>
+In the browser, type localhost/8080
 
-## Comandos básicos do Docker
+## Comandos básicos do Docker | Basic Docker Commands
 
 docker ps: lista os containers em execução.<br>
 docker ps -a: lista todos os containers (inclusive os parados).<br>
