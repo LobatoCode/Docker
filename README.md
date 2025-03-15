@@ -52,7 +52,9 @@ docker start <id ou nome do container>: inicia um container parado | starts a st
 docker rm <id ou nome do container>: remove um container | removes a container <br>
 docker rmi nome_da_imagem: remove uma imagem | removes an image
 
-## Comandos para criar network, imagens e containers que serão usados no Natural Adabas. Execute na ordem | Commands to create network, images, and containers that will be used in Natural Adabas. Execute in order
+## Comandos para criar network, imagens e containers que serão usados no Natural Adabas | Commands to create network, images, and containers that will be used in Natural Adabas
+
+Execute na ordem | Execute in order
 
 docker network create adabas_natural
 
