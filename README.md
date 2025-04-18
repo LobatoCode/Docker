@@ -55,3 +55,5 @@ docker network create adabas_natural
 docker run -d -e ACCEPT_EULA=Y -e ADABAS_DBID=12 -e "ADABAS_DB_CREATION=demodb" --network adabas_natural --name ADABAS-DB softwareag/adabas-ce:7.3.0
 
 docker run -d -p 2700:2700 --network adabas_natural -e ACCEPT_EULA=Y --name natural-ce softwareag/natural-ce:9.3.2
+
+docker run -d -p 4990:4990 --network adabas_natural -e ACCEPT_EULA=Y --name adabas-manager softwareag/adabasmanager-ce:9.3.0
